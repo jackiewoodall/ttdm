@@ -1,0 +1,18 @@
+Taming the Drunken Monkey: Workbook
+===================================
+Jackie Woodall
+v1.0,2020
+:doctype: book
+:toc:
+
+include::chp1-overview.adoc[]
+
+include::chp2-novice.adoc[]
+
+include::chp3-student.adoc[]
+
+include::chp4-warrior.adoc[]
+
+include::chp5-adept.adoc[]
+
+include::chp7-appendix.adoc[]

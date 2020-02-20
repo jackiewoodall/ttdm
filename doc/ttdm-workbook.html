@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.10">
+<meta name="author" content="Jackie Woodall">
+<title>Taming the Drunken Monkey: Workbook</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment @import statement to use as custom stylesheet */
+/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+a{background:none}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,*::before,*::after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:0}
+p{font-family:inherit;font-weight:400;font-size:1em;line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em;height:0}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+abbr,acronym{text-transform:uppercase;font-size:90%;color:rgba(0,0,0,.8);border-bottom:1px dotted #ddd;cursor:help}
+abbr{text-transform:none}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote cite{display:block;font-size:.9375em;color:rgba(0,0,0,.6)}
+blockquote cite::before{content:"\2014 \0020"}
+blockquote cite a,blockquote cite a:visited{color:rgba(0,0,0,.6)}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
+table thead,table tfoot{background:#f7f8f7}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt{background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
+.clearfix::after,.float-group::after{clear:both}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed;word-wrap:break-word}
+:not(pre)>code.nobreak{word-wrap:normal}
+:not(pre)>code.nowrap{white-space:nowrap}
+pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
+pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
+pre>code{display:block}
+pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
+b.button::before{content:"[";padding:0 3px 0 2px}
+b.button::after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
+#content::before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
+#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span::before{content:"\00a0\2013\00a0"}
+#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark::before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber::after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
+@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:100%;background:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:rgba(255,255,255,.8);line-height:1.44}
+#content{margin-bottom:.625em}
+.sect1{padding-bottom:.625em}
+@media screen and (min-width:768px){#content{margin-bottom:1.25em}
+.sect1{padding-bottom:1.25em}}
+.sect1:last-child{padding-bottom:0}
+.sect1+.sect1{border-top:1px solid #e7e7e9}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details>summary:first-of-type{cursor:pointer;display:list-item;outline:none;margin-bottom:.75em}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
+.paragraph.lead>p,#preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
+table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:inherit}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6)}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
+.exampleblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child{margin-bottom:0}
+.sidebarblock{border-style:solid;border-width:1px;border-color:#dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;-webkit-border-radius:4px;border-radius:4px}
+.sidebarblock>:first-child{margin-top:0}
+.sidebarblock>:last-child{margin-bottom:0}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock>.content>pre{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class="highlight"],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.prettyprint{background:#f7f7f8}
+pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
+pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
+pre.prettyprint li code[data-lang]::before{opacity:1}
+pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
+table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
+table.linenotable td.code{padding-left:.75em}
+table.linenotable td.linenos{border-right:1px solid currentColor;opacity:.35;padding-right:.5em}
+pre.pygments .lineno{border-right:1px solid currentColor;opacity:.35;display:inline-block;margin-right:.75em}
+pre.pygments .lineno::before{content:"";margin-right:-.125em}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
+.verseblock{margin:0 1em 1.25em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
+.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
+.quoteblock.abstract{margin:0 1em 1.25em;display:block}
+.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
+.quoteblock.excerpt>blockquote,.quoteblock .quoteblock{padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
+.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;text-align:left;margin-right:0}
+table.tableblock{max-width:100%;border-collapse:separate}
+p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content>:last-child{margin-bottom:-1.25em}
+td.tableblock>.content>:last-child.sidebarblock{margin-bottom:0}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all>thead>tr>.tableblock,table.grid-all>tbody>tr>.tableblock{border-width:0 1px 1px 0}
+table.grid-all>tfoot>tr>.tableblock{border-width:1px 1px 0 0}
+table.grid-cols>*>tr>.tableblock{border-width:0 1px 0 0}
+table.grid-rows>thead>tr>.tableblock,table.grid-rows>tbody>tr>.tableblock{border-width:0 0 1px}
+table.grid-rows>tfoot>tr>.tableblock{border-width:1px 0 0}
+table.grid-all>*>tr>.tableblock:last-child,table.grid-cols>*>tr>.tableblock:last-child{border-right-width:0}
+table.grid-all>tbody>tr:last-child>.tableblock,table.grid-all>thead:last-child>tr>.tableblock,table.grid-rows>tbody>tr:last-child>.tableblock,table.grid-rows>thead:last-child>tr>.tableblock{border-bottom-width:0}
+table.frame-all{border-width:1px}
+table.frame-sides{border-width:0 1px}
+table.frame-topbot,table.frame-ends{border-width:1px 0}
+table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{display:table-cell;line-height:1.6;background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+ul.checklist{margin-left:.625em}
+ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist li>p:first-child>input[type="checkbox"]:first-child{margin-right:.25em}
+ul.inline{display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.inline>li{margin-left:1.25em}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
+.colist td:not([class]):first-child img{max-width:none}
+.colist td:not([class]):last-child{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
+.imageblock.left{margin:.25em .625em 1.25em 0}
+.imageblock.right{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
+.gist .file-data>table td.line-data{width:99%}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background:#00fafa}
+.black{color:#000}
+.black-background{background:#000}
+.blue{color:#0000bf}
+.blue-background{background:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background:#fa00fa}
+.gray{color:#606060}
+.gray-background{background:#7d7d7d}
+.green{color:#006000}
+.green-background{background:#007d00}
+.lime{color:#00bf00}
+.lime-background{background:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background:#7d0000}
+.navy{color:#000060}
+.navy-background{background:#00007d}
+.olive{color:#606000}
+.olive-background{background:#7d7d00}
+.purple{color:#600060}
+.purple-background{background:#7d007d}
+.red{color:#bf0000}
+.red-background{background:#fa0000}
+.silver{color:#909090}
+.silver-background{background:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background:#fafa00}
+span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]::after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@page{margin:1.25cm .75cm}
+@media print{*{-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
+html{font-size:80%}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]::after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span::before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]::before{display:block}
+#footer{padding:0 .9375em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+@media print,amzn-kf8{#header>h1:first-child{margin-top:1.25rem}
+.sect1{padding:0!important}
+.sect1+.sect1{border:0}
+#footer{background:none}
+#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
+</style>
+</head>
+<body class="book">
+<div id="header">
+<h1>Taming the Drunken Monkey: Workbook</h1>
+<div class="details">
+<span id="author" class="author">Jackie Woodall</span><br>
+<span id="revnumber">version 1.0,</span>
+<span id="revdate">2020</span>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_overview">Overview</a></li>
+<li><a href="#novice">Novice</a>
+<ul class="sectlevel2">
+<li><a href="#_breathwork_i">Breathwork I</a></li>
+<li><a href="#_awareness_i">Awareness I</a></li>
+<li><a href="#_concentration_i">Concentration I</a></li>
+<li><a href="#_attitude_i">Attitude I</a></li>
+<li><a href="#_flexibility_i">Flexibility I</a></li>
+</ul>
+</li>
+<li><a href="#student">Student</a>
+<ul class="sectlevel2">
+<li><a href="#_concentration_ii">Concentration II</a></li>
+<li><a href="#_awareness_ii">Awareness II</a></li>
+<li><a href="#_attitude_ii">Attitude II</a></li>
+<li><a href="#_breathwork_ii">Breathwork II</a></li>
+<li><a href="#_flexibility_ii">Flexibility II</a></li>
+</ul>
+</li>
+<li><a href="#warrior">Warrior</a>
+<ul class="sectlevel2">
+<li><a href="#_concentration_iii">Concentration III</a></li>
+<li><a href="#_awareness_iii">Awareness III</a></li>
+<li><a href="#_attitude_iii">Attitude III</a></li>
+<li><a href="#_breathwork_iii">Breathwork III</a></li>
+<li><a href="#_flexibility_iii">Flexibility III</a></li>
+</ul>
+</li>
+<li><a href="#adept">Adept</a>
+<ul class="sectlevel2">
+<li><a href="#_concentration_iv">Concentration IV</a></li>
+<li><a href="#_awareness_iv">Awareness IV</a></li>
+<li><a href="#_attitude_iii_2">Attitude III</a></li>
+<li><a href="#_breathwork_iii_2">Breathwork III</a></li>
+<li><a href="#_flexibility_iii_2">Flexibility III</a></li>
+</ul>
+</li>
+<li><a href="#_progress_chart">Appendix A: Progress Chart</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_overview">Overview</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This workbook is a companion to <a href="https://www.llewellyn.com/product.php?ean=9780738734699"><em>Taming the Drunken Monkey: The Path to Mindfulness, Meditation, and Increased Concentration</em></a> &#169; 2014 by William L. Mikulas, PhD. Without the source text, this workbook will make little sense.</p>
+</div>
+<div class="paragraph">
+<p>Mastery of the mind will improve all areas of one&#8217;s life.</p>
+</div>
+<div class="paragraph">
+<p>There are five areas of development:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Concentration</p>
+</li>
+<li>
+<p>Awareness</p>
+</li>
+<li>
+<p>Mental Flexibility</p>
+</li>
+<li>
+<p>Attitude</p>
+</li>
+<li>
+<p>Breathwork</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Developing concentration will help you focus your attention, control your thoughts, and quiet your runaway mind. Developing awareness will help you have broader and clearer awareness of your body, feelings, thoughts, and the world around you. This awareness will lead to more choice, control, and freedom. And developing flexibility will increase creativity and free you from many mental blocks and biases. You will perceive and think more clearly and freely. Breathwork helps improve the health of the body and mind, helps relax the body and can become an object of attention and awareness.</p>
+</div>
+<div class="paragraph">
+<p>The book is divided into five levels of proficiency:</p>
+</div>
+<div class="olist upperroman">
+<ol class="upperroman" type="I">
+<li>
+<p>Novice</p>
+</li>
+<li>
+<p>Student</p>
+</li>
+<li>
+<p>Warrior</p>
+</li>
+<li>
+<p>Adept</p>
+</li>
+<li>
+<p>Master</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>This is a <strong>work</strong>book not a thought-book. It is important to do these practices and not just think about them or say "another time, I&#8217;m too busy right now". All the time spent developing these skills you will get back many times over.</p>
+</div>
+<div class="paragraph">
+<p>Enjoy the journey.</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="novice">Novice</h2>
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>In the mind of the beginner, there are many possibilities. In the mind of an expert, there are few.</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; S Suzuki<br>
+<cite>Zen Mind, Beginner's Mind</cite>
+</div>
+</div>
+<div class="paragraph">
+<p>At the novice level, the rules of the game are established and basic instructions to the practices are outlined. Develop habits which establish practice time, place, and form.</p>
+</div>
+<div class="sect2">
+<h3 id="_breathwork_i">Breathwork I</h3>
+<div class="paragraph">
+<p>Observe how you breath. Pay attention to the rising and falling of the abdomen.</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Spend one or two training sessions observing the movement of the diaphragm.</p>
+</li>
+<li>
+<p>&#10063; Spend a week of practice time just quietly observing the complete breath.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Moving on:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; You can easily observe all stages of complete breathing, including the nose, chest, and diaphragm or stomach.</p>
+</li>
+<li>
+<p>&#10063; You can feel the difference between chest breathing and diaphragm breathing, and periodically intentionally shift from chest breathing to diaphragm breathing.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_awareness_i">Awareness I</h3>
+<div class="paragraph">
+<p>As you progress through this book, you will gradually become more and more aware: more aware of your body, feelings, thoughts, and mental processes;<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup> and more aware of other people and the world around you. This awareness will bring you more health, happiness, choice, and freedom.</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Answer awareness questionnaire.</p>
+</li>
+<li>
+<p>&#10063; During breathwork, put your emphasis on gradually become more and more aware of the fine aspects of breathing. Put your attention on the breath at the tip of the nose.</p>
+</li>
+<li>
+<p>&#10063; Put your attention on the rising and falling of the abdomen/stomach. Encourage yourself to become more and more aware of the body related to breathing.</p>
+</li>
+<li>
+<p>&#10063; Follow the whole cycle of breathing from the air coming in to the air leaving the body. Be aware of pauses and feelings.</p>
+</li>
+<li>
+<p>&#10063; Body scan at least once a day, five times a week for a few weeks.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Moving on:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; You understand what awareness is and how it differs from thinking and reacting.</p>
+</li>
+<li>
+<p>&#10063; You have spent considerable time learning to become more aware of your breathing and body, and are now much more aware of these than you were when you began.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_concentration_i">Concentration I</h3>
+<div class="paragraph">
+<p>Concentration is the ability to keep the mind focused on one thing. Concentration training at the Novice levels begins by keeping the mind focused on the breath.</p>
+</div>
+<div class="paragraph">
+<p>Begin by relaxing and then sitting or lying quietly observing your breathing. Next, put your attention on your breathing, either at the tip of your nose or the rising and falling of diaphragm or stomach. Breathe naturally and don’t be concerned about how well you are breathing or how aware you are of the breathing; now it is time to emphasize concentration. Now, focus your mind on your breathing. As soon as you are aware that your attention has left your breathing, gently and firmly bring your attention back to your breath. That is all you need to do!</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Practice concentration training for a few weeks.</p>
+</li>
+<li>
+<p>&#10063; Combine breathwork, awareness, and concentration training into one practice. Your focus will move from one breathing area to another. But wherever your focus is, whenever your mind leaves the breath, you gently and firmly bring it back.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Moving on:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; You know the difference between when your mind is focused and when it is not.</p>
+</li>
+<li>
+<p>&#10063; Even though your mind still jumps around during most practice sessions, you periodically have experienced short periods of time where your attention stayed on the breath.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_attitude_i">Attitude I</h3>
+<div class="paragraph">
+<p>Attitude is the mental set with which one approaches situations. Attitude includes moods, associations, expectations, and intentions.</p>
+</div>
+<div class="paragraph">
+<p><em>Act with Intention</em>. This means to do the exercises within the book, not just read and think about them.</p>
+</div>
+<div class="paragraph">
+<p><em>Have Fun</em>. Relax into the journey and enjoy it.</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Intentionally do the exercises at the Novice level.</p>
+</li>
+<li>
+<p>&#10063; Reflect on the suggestions related to attitude, and realize that whatever your current attitude, it can be improved in ways that will help you.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Moving on:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; You have completed the exercises at the Novice level.</p>
+</li>
+<li>
+<p>&#10063; You have reflected on how to have more fun with the practices, the journey, and life in-general.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_flexibility_i">Flexibility I</h3>
+<div class="paragraph">
+<p>With the mental flexibility exercises you will learn to think better and more creatively. There are two aspects to increase mental flexibility.</p>
+</div>
+<div class="paragraph">
+<p><em>Lateral Thinking</em>. The purpose is to generate new ideas. Think outside the box of correctness. Ways: generate to meet a quota of new ideas, start with the goal and work backwards, brainstorm, random simulation, question assumptions, break concepts into parts, use analogies, and challenge categories and labels.</p>
+</div>
+<div class="paragraph">
+<p><em>Mistakes and Being Wrong</em>. Making mistakes is often the best and fastest way to learn. Too much avoiding of mistakes can impair mental flexibility. And in regards to being wrong, mental flexibility is improved by being open to the fact that you will periodically be wrong, not being bothered by this fact, and being quick to admit when you are wrong.</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Make up three more strategies for lateral thinking.</p>
+</li>
+<li>
+<p>&#10063; Be on alert for times when you are wrong. Seek opportunities to admit when you are wrong.</p>
+</li>
+<li>
+<p>&#10063; Answer the Mental Play questions at the end of the chapter.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Moving on:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; You understand the nature of lateral thinking, and you periodically utilize lateral thinking type of strategies.</p>
+</li>
+<li>
+<p>&#10063; You have systematically applied lateral thinking to several topics of personal significance.</p>
+</li>
+<li>
+<p>&#10063; You are free of the mistake mystique and readily notice and admit being wrong.</p>
+</li>
+<li>
+<p>&#10063; You have identified at least one major area where you were wrong and did something to make corrections.</p>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="student">Student</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You have the basics in five general areas (concentration, awareness, breathwork, flexibility, and attitude) and now it is time to further hone these skills and build on them. Always remember the following: Learning to use your mind more effectively is one of the most important things you can do with your life; it will improve almost everything you do, and thus increase your happiness and health. To do this, you as a student must spend time developing skills&#8212;&#8203;reading, thinking, and wishing will not work. Whatever time you spend developing these skills you will get back many times over for many reasons, including being more effective and efficient, and avoiding common traps.</p>
+</div>
+<div class="sect2">
+<h3 id="_concentration_ii">Concentration II</h3>
+<div class="paragraph">
+<p>You continue the same basic practice that you already know: you put your attention on something, such as your breathing at the tip of the nose, and every time the monkey runs off, you gently and firmly bring your attention back to your breathing. For the duration of your concentration practice at the student level is one simple principle: No matter what arises, treat it as a monkey trick and return to your breath. This includes all feelings, images, thoughts, and memories. The primary goal for level II concentration is the further development of one-pointed concentration despite distractions, and using the breath and other objects of focus.</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; What you need to do as a student is add at least two or three new objects of concentration to your practice.</p>
+</li>
+<li>
+<p>&#10063; Practice <em>Moment-to-Moment Concentration</em>. Let your mind go where it will; you let go and don’t choose. But wherever your mind goes, you try to bring to that object concentrated focus.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Moving on:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; You understand the tricks the monkey uses on you, and although it still periodically catches you, you don’t stay caught long.</p>
+</li>
+<li>
+<p>&#10063; Distractions to your concentration periodically arise, but most of the time they are short lived and not troublesome.</p>
+</li>
+<li>
+<p>&#10063; You have a clear sense of how to concentrate your mind, and can usually easily do it, when you are aware and motivated.</p>
+</li>
+<li>
+<p>&#10063; There have been many times in which you have maintained strong concentration on some object.</p>
+</li>
+<li>
+<p>&#10063; You have developed concentration using your breath as well as other objects.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_awareness_ii">Awareness II</h3>
+<div class="paragraph">
+<p>At the novice level, awareness of the body was the major object of attention. Awareness of your body should always be part of your practice. From now on you should periodically intentionally focus your awareness on some part of your body,</p>
+</div>
+<div class="paragraph">
+<p>At the student level, awareness of feelings is added. There is an interrelationship between body, feelings, and mind. Feelings in the body often precede actions and thoughts. Perceptions and thoughts often cause feelings in your body.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Body <code>&#8592;-&#8594;</code> Feelings <code>&#8592;-&#8594;</code> Mind
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Intentionally try to clearly notice wherever your mind goes. Try to see clearly whatever arises in your mind, including feelings, perceptions, and thoughts.</p>
+</li>
+<li>
+<p>&#10063; Experiment with the use of labels.</p>
+</li>
+<li>
+<p>&#10063; Combine concentration and awareness training.</p>
+</li>
+<li>
+<p>&#10063; After practicing awareness III for awhile, re-take the awareness questionnaire.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Moving on:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; You have become more aware of your body in a variety of ways and regularly, consciously attend to some parts of your body.</p>
+</li>
+<li>
+<p>&#10063; You have learned how to cultivate awareness during your way of practice.</p>
+</li>
+<li>
+<p>&#10063; You know the difference between awareness and concentration.</p>
+</li>
+<li>
+<p>&#10063; You can easily be aware of how concentrated your mind is.</p>
+</li>
+<li>
+<p>&#10063; You are becoming more aware of how aware you are at any time.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_attitude_ii">Attitude II</h3>
+<div class="paragraph">
+<p><em>Make Friends with Yourself</em>. Unconditionally accept yourself, even when you are recognizing areas for improvement. If you say you can’t accept yourself unconditionally, then accept yourself as someone who can’t accept her or his self unconditionally.</p>
+</div>
+<div class="paragraph">
+<p><em>Be in the Here and Now</em>. The key to bringing yourself into the here and now is concentration, with help from awareness. When you are aware that you are lost in the past or future, you concentrate on something in the present to bring you back to the here and now.</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Reflect on how the four components of attitude be applied to many aspects of your life.</p>
+</li>
+<li>
+<p>&#10063; Reflect on the four components at least once a week, then once a month, and then periodically.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Moving on:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; You are continually discovering new ways attitude applies to your life and finding more and more depth and subtlety to your understanding.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_breathwork_ii">Breathwork II</h3>
+<div class="paragraph">
+<p>At the student level you will learn how to further refine and alter your breathing by changing the rate of inhalation and exhalation. You will also learn additional ways to use breathing to reduce stress and anxiety.</p>
+</div>
+<div class="paragraph">
+<p>You want to exhale when you are contracting, bending forward, compressing your stomach, or twisting. You want to inhale when are expanding, bending backward, opening your chest, or coming out of a stretch.</p>
+</div>
+<div class="paragraph">
+<p>When you want to relax more, lengthen the time of exhalation and briefly hold your breath after exhaling. If you are feeling anxious, gradually lengthen the time of exhalation. If you need more energy, lengthen the time of inhalation and briefly hold your breath after inhaling.</p>
+</div>
+<div class="paragraph">
+<p>Some cases of fatigue are helped by first lengthening exhalations for about a dozen breaths and then gradually lengthening inhalations. And some cases of depression are helped by having the same length of both inhalation and exhalation, and then gradually lengthening both.</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Observe how long it takes you to inhale versus how long to exhale.</p>
+</li>
+<li>
+<p>&#10063; Spend a week of practice time just quietly observing the complete breath.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Moving on:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; You periodically monitor your breathing in various situations and alter it as needed.</p>
+</li>
+<li>
+<p>&#10063; You have added to your overall awareness of your complete breathing the periodic awareness of the relative lengths of inhalation and exhalation.</p>
+</li>
+<li>
+<p>&#10063; You have learned how to alter these lengths for the purpose of relaxation or energy.</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_relaxing">Relaxing</h4>
+<div class="paragraph">
+<p>A simple way to relax is to use the 4-2-4-2 controlled breathing technique. Here you gradually inhale for a count of four, hold your breath for a count of two, gradually exhale for a count of four, hold your breath for a count of two, and then begin again.</p>
+</div>
+<div class="paragraph">
+<p>Relax by imagining a pleasant scene. Practice this with imagined situations that cause negative emotions.</p>
+</div>
+<div class="paragraph">
+<p>Moving on:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; You have developed your own powerful way to relax using breathwork, such as deep breathing and/or 4-2-4-2 breathing.</p>
+</li>
+<li>
+<p>&#10063; You have used this relaxation practice many times in real life situations.</p>
+</li>
+<li>
+<p>&#10063; You are continually becoming more aware of bodily cues related to how relaxed you are and changes in this relaxation.</p>
+</li>
+<li>
+<p>&#10063; You understand and appreciate how concentration, awareness, and breathwork combine to relax body and mind.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_flexibility_ii">Flexibility II</h3>
+<div class="paragraph">
+<p>Increasing mental flexibility increases creativity.</p>
+</div>
+<div class="paragraph">
+<p>Question assumptions such as long held ideas and habit patterns.</p>
+</div>
+<div class="paragraph">
+<p>Moving on:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Rather than just unconsciously wandering through life, as a student you periodically reflect on, and occasionally question, some of your habitual perceptions, thoughts, values, and actions.</p>
+</li>
+<li>
+<p>&#10063; You have made some important changes in some of your ideas, and you have found better ways of doing some things.</p>
+</li>
+<li>
+<p>&#10063; Complete mental play puzzles.</p>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="warrior">Warrior</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A key to effective living is learning to be a warrior in everyday situations, including mental training. Warriors realize that almost every instant of living is an opportunity to apply or further develop a mental skill. Perhaps it is a time to concentrate one’s attention, be more aware of one’s feelings, or question an assumption. There is always something mentally that can be done, and the warrior understands the importance of this truth. Training at the warrior level builds on this.</p>
+</div>
+<div class="sect2">
+<h3 id="_concentration_iii">Concentration III</h3>
+<div class="paragraph">
+<p>Concentration training at this level begins with finding at least one situation each day where you can cultivate concentration. Once you are comfortable with this, then look for several situations each day. Freely repeat situations that are common or important, such as listening to people. But variety is also important; continually look for new situations. Eventually you should be easily doing this many times a day, usually without much effort. Also, be aware of when you need to quiet your mind and relax. To become a warrior relative to concentration is to act on the understanding that basically any situation is an opportunity to utilize and/or develop concentration skills.</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; At least once a day you want to identify an addition situation where you can develop concentration.</p>
+</li>
+<li>
+<p>&#10063; Maintain MTMC keeping your mind focused instant by instant as it moves from object to object.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_awareness_iii">Awareness III</h3>
+<div class="paragraph">
+<p>Awareness training at the warrior level also involves bringing awareness more fully into daily living and developing and applying awareness more and more. Just about any situation that you are in or any activity you are doing is an opportunity to cultivate awareness. When cultivating awareness, try to do an activity as if it was completely new. The warrior&#8217;s goal is to be as aware as possible as often as possible.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Create the time and space to do just one activity. Do not combine activities or multitask.</p>
+</li>
+<li>
+<p>Do the activity slowly.</p>
+</li>
+<li>
+<p>Take your time, be aware, and enjoy.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Eat a meal with complete awareness, slowly, and by yourself. Then, wash the dishes with awareness.</p>
+</li>
+<li>
+<p>&#10063; Everyday pick at least one activity to do with full awareness and concentration.</p>
+</li>
+<li>
+<p>&#10063; Increase the number from one activity to several activities.</p>
+</li>
+<li>
+<p>&#10063; Set aside a half day to do everything with complete awareness.</p>
+</li>
+<li>
+<p>&#10063; Set aside a full day to do everything with full awareness.</p>
+</li>
+<li>
+<p>&#10063; After practicing awareness III for awhile, re-take the awareness questionnaire.</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_awareness_of_pain">Awareness of Pain</h4>
+<div class="paragraph">
+<p>Working with pain is one way to brings one focus into the here and now of direct experience.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Notice the experience of being fully in the here and now.</p>
+</li>
+<li>
+<p>Try to bring your awareness to the simple sensation of pain, the pure sensation before you label it “pain” or respond to it in any way. Bring your awareness to the direct contact with the sensation.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_sitting_practice">Sitting Practice</h4>
+<div class="paragraph">
+<p>It is important to continue to develop awareness during your way of practice, such as sitting and watching your breath.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Notice how your body and mind interact.</p>
+</li>
+<li>
+<p>Focus on the rising and falling of events in your consciousness.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_awareness_while_walking">Awareness While Walking</h4>
+<div class="paragraph">
+<p>You can cultivate concentration and awareness while walking in the same way you cultivated them during sitting.</p>
+</div>
+<div class="paragraph">
+<p>Slow formal walking. Cultivate awareness as described in this whole awareness section. Concentration is developed by continually bringing your attention back to walking. At first, do this for ten to fifteen minutes and then longer.</p>
+</div>
+<div class="paragraph">
+<p>Walk at other speeds.</p>
+</div>
+<div class="paragraph">
+<p>Put attention on breath while walking.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_attitude_iii">Attitude III</h3>
+<div class="paragraph">
+<p>Continue to reflect on the four aspects of attitudes that were introduced at the first two levels. The warrior sees how these are applicable to all of living, not just mental training.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Have Fun</p>
+</li>
+<li>
+<p>Act with Intention</p>
+</li>
+<li>
+<p>Make Friends with Yourself</p>
+</li>
+<li>
+<p>Be in the Here and Now</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><em>Time-Outs</em>: Take periodic time outs and days of rest. In addition, go off on retreats.</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Continue to reflect on the four aspects of attitude.</p>
+</li>
+<li>
+<p>&#10063; Take increasing amounts of time-outs.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_breathwork_iii">Breathwork III</h3>
+<div class="paragraph">
+<p>You will learn here optional breathwork mental practices from pranayama.</p>
+</div>
+<div class="paragraph">
+<p><em>Purifying Breath</em>: Inhale fully with a deep breath and then exhale most of the air. At the end of the exhale, stop, then exhale a little more, stop, exhale a little more, stop, exhale a little more&#8230;&#8203;Do this until you can’t exhale any more. All of this is one purifying breath. Do three purifying breaths in a row.</p>
+</div>
+<div class="paragraph">
+<p><em>Vitalic Breath</em>: First, breathe in through the nose with a series of sharp sniffs until the lungs are completely full. Then, blow out sharply through the mouth with a loud “HAAA.” Do this vitalic breath three times in a row.</p>
+</div>
+<div class="paragraph">
+<p><em>Alternate Nostril Breathing</em>: The complete alternate nostril breathing consists of this cycle:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Slowly take a deep breath inhaling through your left nostril for a count of 4.</p>
+</li>
+<li>
+<p>Hold your breath for a count of 4.</p>
+</li>
+<li>
+<p>Slowly and completely exhale through your right nostril for a count of 8.</p>
+</li>
+<li>
+<p>Slowly and deeply inhale through your right nostril for a count of 4.</p>
+</li>
+<li>
+<p>Hold for a count of 4.</p>
+</li>
+<li>
+<p>Slowly and completely exhale through your left nostril for a count of 8.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Do five to ten of these cycles of alternate nostril breathing, pausing between each cycle, while letting your breathing flow naturally.</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Practice purifying breathing.</p>
+</li>
+<li>
+<p>&#10063; Practice vitalic breathing.</p>
+</li>
+<li>
+<p>&#10063; Practice alternate nostril breathing.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_flexibility_iii">Flexibility III</h3>
+<div class="paragraph">
+<p>Flexibility at the warrior levels involves looking at attachments, meditation, and mental play.</p>
+</div>
+<div class="sect3">
+<h4 id="_attachments">Attachments</h4>
+<div class="paragraph">
+<p>Attachments are obstacles to mental flexibility. Attachments are bad and lead to suffering. Being a warrior includes the willingness and desire to be in the world in the midst of attachments, confronting and reducing them. Sometimes this is difficult, but the warrior is up to the challenge. Attachments are the grist for the mill, opportunities for significant personal and spiritual growth.</p>
+</div>
+<div class="paragraph">
+<p>Attitude: take delight in discovering an attachment. Make friends with yourself.</p>
+</div>
+<div class="paragraph">
+<p>Awareness: First, notice the results of an attachment such as an undesired emotion. Then, go back in time to see if you can identify the attachment which was the cause.</p>
+</div>
+<div class="paragraph">
+<p>Action: What do you do to reduce the attachment.</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Identify a wide range of attachments at play in your life.</p>
+</li>
+<li>
+<p>&#10063; Write them down</p>
+</li>
+<li>
+<p>&#10063; Devise a plan to reduce the important ones</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_meditation">Meditation</h4>
+<div class="paragraph">
+<p>The practice of meditation consists of four components:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Form</p>
+</li>
+<li>
+<p>Behaviors of the mind</p>
+</li>
+<li>
+<p>Attitude</p>
+</li>
+<li>
+<p>Object</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Your training in concentration and awareness will strongly help you in many of the world&#8217;s spiritual traditions. If you are at the Warrior level, you already have advanced skills for meditation in all of these traditions.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_mental_play">Mental Play</h4>
+<div class="paragraph">
+<p>The playful warrior recognizes that having fun is not only pleasurable but also good for the health of body, mind, and spirit. The warrior brings the attitude of having fun to as many activities as possible. The warrior looks for and creates many opportunities to play. And the warrior understands playtime as a time to be in the here and how, a time to be free and open to novelty and surprise, and a time for creativity and lateral thinking.</p>
+</div>
+<div class="paragraph">
+<p>The world&#8217;s best non-gambling strategy games:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Chess</p>
+</li>
+<li>
+<p>Go</p>
+</li>
+<li>
+<p>Duplicate Bridge</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Warriors find games that they and various friends enjoy. Most important, warriors enjoy playing with all aspects of living with all of its interesting challenges.</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Learn a new game (chess, go, or bridge).</p>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="adept">Adept</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>At the adept level you will come to appreciate more how everything is interrelated.</p>
+</div>
+<div class="sect2">
+<h3 id="_concentration_iv">Concentration IV</h3>
+<div class="paragraph">
+<p>Adept concentration is based on the understanding that any situation is an opportunity to further refine one’s concentration. Thus, every situation is a chance to do one or more of the following: be aware of how concentrated your mind is, actively quiet and focus your mind more, and keep your attention focused.</p>
+</div>
+<div class="paragraph">
+<p>The level is also an opportunity to further refine Moment-To-Moment Concentration (MTMC).</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Read through the Awareness Questionnaire and consider how both concentration and awareness apply to what is being asked.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_awareness_iv">Awareness IV</h3>
+<div class="paragraph">
+<p>Awareness training at the adept level is based on the fact that every situation is an opportunity to develop awareness.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Create the time and space to do just one activity. Do not combine activities or multitask.</p>
+</li>
+<li>
+<p>Do the activity slowly.</p>
+</li>
+<li>
+<p>Take your time, be aware, and enjoy.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Eat a meal with complete awareness, slowly, and by yourself. Then, wash the dishes with awareness.</p>
+</li>
+<li>
+<p>&#10063; Everyday pick at least one activity to do with full awareness and concentration.</p>
+</li>
+<li>
+<p>&#10063; Increase the number from one activity to several activities.</p>
+</li>
+<li>
+<p>&#10063; Set aside a half day to do everything with complete awareness.</p>
+</li>
+<li>
+<p>&#10063; Set aside a full day to do everything with full awareness.</p>
+</li>
+<li>
+<p>&#10063; After practicing awareness III for awhile, re-take the awareness questionnaire.</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_awareness_of_pain_2">Awareness of Pain</h4>
+<div class="paragraph">
+<p>Working with pain is one way to brings one focus into the here and now of direct experience.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Notice the experience of being fully in the here and now.</p>
+</li>
+<li>
+<p>Try to bring your awareness to the simple sensation of pain, the pure sensation before you label it “pain” or respond to it in any way. Bring your awareness to the direct contact with the sensation.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_sitting_practice_2">Sitting Practice</h4>
+<div class="paragraph">
+<p>It is important to continue to develop awareness during your way of practice, such as sitting and watching your breath.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Notice how your body and mind interact.</p>
+</li>
+<li>
+<p>Focus on the rising and falling of events in your consciousness.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_awareness_while_walking_2">Awareness While Walking</h4>
+<div class="paragraph">
+<p>You can cultivate concentration and awareness while walking in the same way you cultivated them during sitting.</p>
+</div>
+<div class="paragraph">
+<p>Slow formal walking. Cultivate awareness as described in this whole awareness section. Concentration is developed by continually bringing your attention back to walking. At first, do this for ten to fifteen minutes and then longer.</p>
+</div>
+<div class="paragraph">
+<p>Walk at other speeds.</p>
+</div>
+<div class="paragraph">
+<p>Put attention on breath while walking.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_attitude_iii_2">Attitude III</h3>
+<div class="paragraph">
+<p>Continue to reflect on the four aspects of attitudes that were introduced at the first two levels. The warrior sees how these are applicable to all of living, not just mental training.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Have Fun</p>
+</li>
+<li>
+<p>Act with Intention</p>
+</li>
+<li>
+<p>Make Friends with Yourself</p>
+</li>
+<li>
+<p>Be in the Here and Now</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><em>Time-Outs</em>: Take periodic time outs and days of rest. In addition, go off on retreats.</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Continue to reflect on the four aspects of attitude.</p>
+</li>
+<li>
+<p>&#10063; Take increasing amounts of time-outs.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_breathwork_iii_2">Breathwork III</h3>
+<div class="paragraph">
+<p>You will learn here optional breathwork mental practices from pranayama.</p>
+</div>
+<div class="paragraph">
+<p><em>Purifying Breath</em>: Inhale fully with a deep breath and then exhale most of the air. At the end of the exhale, stop, then exhale a little more, stop, exhale a little more, stop, exhale a little more&#8230;&#8203;Do this until you can’t exhale any more. All of this is one purifying breath. Do three purifying breaths in a row.</p>
+</div>
+<div class="paragraph">
+<p><em>Vitalic Breath</em>: First, breathe in through the nose with a series of sharp sniffs until the lungs are completely full. Then, blow out sharply through the mouth with a loud “HAAA.” Do this vitalic breath three times in a row.</p>
+</div>
+<div class="paragraph">
+<p><em>Alternate Nostril Breathing</em>: The complete alternate nostril breathing consists of this cycle:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Slowly take a deep breath inhaling through your left nostril for a count of 4.</p>
+</li>
+<li>
+<p>Hold your breath for a count of 4.</p>
+</li>
+<li>
+<p>Slowly and completely exhale through your right nostril for a count of 8.</p>
+</li>
+<li>
+<p>Slowly and deeply inhale through your right nostril for a count of 4.</p>
+</li>
+<li>
+<p>Hold for a count of 4.</p>
+</li>
+<li>
+<p>Slowly and completely exhale through your left nostril for a count of 8.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Do five to ten of these cycles of alternate nostril breathing, pausing between each cycle, while letting your breathing flow naturally.</p>
+</div>
+<div class="paragraph">
+<p>Assignments:</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Practice purifying breathing.</p>
+</li>
+<li>
+<p>&#10063; Practice vitalic breathing.</p>
+</li>
+<li>
+<p>&#10063; Practice alternate nostril breathing.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_flexibility_iii_2">Flexibility III</h3>
+<div class="paragraph">
+<p>Flexibility at the warrior levels involves looking at attachments, meditation, and mental play.</p>
+</div>
+<div class="sect3">
+<h4 id="_attachments_2">Attachments</h4>
+<div class="paragraph">
+<p>Attachments are obstacles to mental flexibility. Attachments are bad and lead to suffering. Being a warrior includes the willingness and desire to be in the world in the midst of attachments, confronting and reducing them. Sometimes this is difficult, but the warrior is up to the challenge. Attachments are the grist for the mill, opportunities for significant personal and spiritual growth.</p>
+</div>
+<div class="paragraph">
+<p>Attitude: take delight in discovering an attachment. Make friends with yourself.</p>
+</div>
+<div class="paragraph">
+<p>Awareness: First, notice the results of an attachment such as an undesired emotion. Then, go back in time to see if you can identify the attachment which was the cause.</p>
+</div>
+<div class="paragraph">
+<p>Action: What do you do to reduce the attachment.</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Identify a wide range of attachments at play in your life.</p>
+</li>
+<li>
+<p>&#10063; Write them down</p>
+</li>
+<li>
+<p>&#10063; Devise a plan to reduce the important ones</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_meditation_2">Meditation</h4>
+<div class="paragraph">
+<p>The practice of meditation consists of four components:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Form</p>
+</li>
+<li>
+<p>Behaviors of the mind</p>
+</li>
+<li>
+<p>Attitude</p>
+</li>
+<li>
+<p>Object</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Your training in concentration and awareness will strongly help you in many of the world&#8217;s spiritual traditions. If you are at the Warrior level, you already have advanced skills for meditation in all of these traditions.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_mental_play_2">Mental Play</h4>
+<div class="paragraph">
+<p>The playful warrior recognizes that having fun is not only pleasurable but also good for the health of body, mind, and spirit. The warrior brings the attitude of having fun to as many activities as possible. The warrior looks for and creates many opportunities to play. And the warrior understands playtime as a time to be in the here and how, a time to be free and open to novelty and surprise, and a time for creativity and lateral thinking.</p>
+</div>
+<div class="paragraph">
+<p>The world&#8217;s best non-gambling strategy games:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Chess</p>
+</li>
+<li>
+<p>Go</p>
+</li>
+<li>
+<p>Duplicate Bridge</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Warriors find games that they and various friends enjoy. Most important, warriors enjoy playing with all aspects of living with all of its interesting challenges.</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; Learn a new game (chess, go, or bridge).</p>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_progress_chart">Appendix A: Progress Chart</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>As you complete tasks tick the appropriate box below to mark your progress.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Progression</caption>
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 16.6666%;">
+<col style="width: 16.6666%;">
+<col style="width: 16.6666%;">
+<col style="width: 16.6666%;">
+<col style="width: 16.667%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Skill</th>
+<th class="tableblock halign-left valign-top"><a href="#novice">Novice</a></th>
+<th class="tableblock halign-left valign-top"><a href="#student">Student</a></th>
+<th class="tableblock halign-left valign-top"><a href="#warrior">Warrior</a></th>
+<th class="tableblock halign-left valign-top"><a href="#adept">Adept</a></th>
+<th class="tableblock halign-left valign-top">Master</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Concentration</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Awareness</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mental Flexibility</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Attitude</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Breathwork</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. Four Foundations of Mindfulness.
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 1.0<br>
+Last updated 2020-01-29 11:44:14 +0630
+</div>
+</div>
+</body>
+</html>

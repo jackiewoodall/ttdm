@@ -1,0 +1,17 @@
+<<<
+[appendix]
+Progress Chart
+--------------
+
+As you complete tasks tick the appropriate box below to mark your progress.
+
+.Progression
+[options=header]
+|====
+|Skill|<<novice,Novice>>|<<student,Student>>|<<warrior,Warrior>>|<<adept,Adept>>|Master
+|Concentration| | | | |  
+|Awareness| | | | |  
+|Mental Flexibility| | | | | 
+|Attitude| | | | | 
+|Breathwork| | | | | 
+|====

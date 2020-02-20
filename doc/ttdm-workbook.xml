@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Taming the Drunken Monkey</title>
+<subtitle>Workbook</subtitle>
+<date>2020</date>
+<author>
+<personname>
+<firstname>Jackie</firstname>
+<surname>Woodall</surname>
+</personname>
+</author>
+<authorinitials>JW</authorinitials>
+<revhistory>
+<revision>
+<revnumber>1.0</revnumber>
+<date>2020</date>
+<authorinitials>JW</authorinitials>
+</revision>
+</revhistory>
+</info>
+<chapter xml:id="_overview">
+<title>Overview</title>
+<simpara>This workbook is a companion to <link xl:href="https://www.llewellyn.com/product.php?ean=9780738734699"><emphasis>Taming the Drunken Monkey: The Path to Mindfulness, Meditation, and Increased Concentration</emphasis></link> &#169; 2014 by William L. Mikulas, PhD. Without the source text, this workbook will make little sense.</simpara>
+<simpara>Mastery of the mind will improve all areas of one&#8217;s life.</simpara>
+<simpara>There are five areas of development:</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Concentration</simpara>
+</listitem>
+<listitem>
+<simpara>Awareness</simpara>
+</listitem>
+<listitem>
+<simpara>Mental Flexibility</simpara>
+</listitem>
+<listitem>
+<simpara>Attitude</simpara>
+</listitem>
+<listitem>
+<simpara>Breathwork</simpara>
+</listitem>
+</orderedlist>
+<simpara>Developing concentration will help you focus your attention, control your thoughts, and quiet your runaway mind. Developing awareness will help you have broader and clearer awareness of your body, feelings, thoughts, and the world around you. This awareness will lead to more choice, control, and freedom. And developing flexibility will increase creativity and free you from many mental blocks and biases. You will perceive and think more clearly and freely. Breathwork helps improve the health of the body and mind, helps relax the body and can become an object of attention and awareness.</simpara>
+<simpara>The book is divided into five levels of proficiency:</simpara>
+<orderedlist numeration="upperroman">
+<listitem>
+<simpara>Novice</simpara>
+</listitem>
+<listitem>
+<simpara>Student</simpara>
+</listitem>
+<listitem>
+<simpara>Warrior</simpara>
+</listitem>
+<listitem>
+<simpara>Adept</simpara>
+</listitem>
+<listitem>
+<simpara>Master</simpara>
+</listitem>
+</orderedlist>
+<simpara>This is a <emphasis role="strong">work</emphasis>book not a thought-book. It is important to do these practices and not just think about them or say "another time, I&#8217;m too busy right now". All the time spent developing these skills you will get back many times over.</simpara>
+<simpara>Enjoy the journey.</simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
+</chapter>
+<chapter xml:id="novice">
+<title>Novice</title>
+<blockquote>
+<attribution>
+S Suzuki
+<citetitle>Zen Mind, Beginner's Mind</citetitle>
+</attribution>
+<simpara>In the mind of the beginner, there are many possibilities. In the mind of an expert, there are few.</simpara>
+</blockquote>
+<simpara>At the novice level, the rules of the game are established and basic instructions to the practices are outlined. Develop habits which establish practice time, place, and form.</simpara>
+<section xml:id="_breathwork_i">
+<title>Breathwork I</title>
+<simpara>Observe how you breath. Pay attention to the rising and falling of the abdomen.</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Spend one or two training sessions observing the movement of the diaphragm.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Spend a week of practice time just quietly observing the complete breath.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Moving on:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; You can easily observe all stages of complete breathing, including the nose, chest, and diaphragm or stomach.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You can feel the difference between chest breathing and diaphragm breathing, and periodically intentionally shift from chest breathing to diaphragm breathing.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_awareness_i">
+<title>Awareness I</title>
+<simpara>As you progress through this book, you will gradually become more and more aware: more aware of your body, feelings, thoughts, and mental processes;<footnote><simpara>Four Foundations of Mindfulness.</simpara></footnote> and more aware of other people and the world around you. This awareness will bring you more health, happiness, choice, and freedom.</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Answer awareness questionnaire.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; During breathwork, put your emphasis on gradually become more and more aware of the fine aspects of breathing. Put your attention on the breath at the tip of the nose.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Put your attention on the rising and falling of the abdomen/stomach. Encourage yourself to become more and more aware of the body related to breathing.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Follow the whole cycle of breathing from the air coming in to the air leaving the body. Be aware of pauses and feelings.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Body scan at least once a day, five times a week for a few weeks.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Moving on:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; You understand what awareness is and how it differs from thinking and reacting.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You have spent considerable time learning to become more aware of your breathing and body, and are now much more aware of these than you were when you began.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_concentration_i">
+<title>Concentration I</title>
+<simpara>Concentration is the ability to keep the mind focused on one thing. Concentration training at the Novice levels begins by keeping the mind focused on the breath.</simpara>
+<simpara>Begin by relaxing and then sitting or lying quietly observing your breathing. Next, put your attention on your breathing, either at the tip of your nose or the rising and falling of diaphragm or stomach. Breathe naturally and don’t be concerned about how well you are breathing or how aware you are of the breathing; now it is time to emphasize concentration. Now, focus your mind on your breathing. As soon as you are aware that your attention has left your breathing, gently and firmly bring your attention back to your breath. That is all you need to do!</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Practice concentration training for a few weeks.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Combine breathwork, awareness, and concentration training into one practice. Your focus will move from one breathing area to another. But wherever your focus is, whenever your mind leaves the breath, you gently and firmly bring it back.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Moving on:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; You know the difference between when your mind is focused and when it is not.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Even though your mind still jumps around during most practice sessions, you periodically have experienced short periods of time where your attention stayed on the breath.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_attitude_i">
+<title>Attitude I</title>
+<simpara>Attitude is the mental set with which one approaches situations. Attitude includes moods, associations, expectations, and intentions.</simpara>
+<simpara><emphasis>Act with Intention</emphasis>. This means to do the exercises within the book, not just read and think about them.</simpara>
+<simpara><emphasis>Have Fun</emphasis>. Relax into the journey and enjoy it.</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Intentionally do the exercises at the Novice level.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Reflect on the suggestions related to attitude, and realize that whatever your current attitude, it can be improved in ways that will help you.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Moving on:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; You have completed the exercises at the Novice level.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You have reflected on how to have more fun with the practices, the journey, and life in-general.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_flexibility_i">
+<title>Flexibility I</title>
+<simpara>With the mental flexibility exercises you will learn to think better and more creatively. There are two aspects to increase mental flexibility.</simpara>
+<simpara><emphasis>Lateral Thinking</emphasis>. The purpose is to generate new ideas. Think outside the box of correctness. Ways: generate to meet a quota of new ideas, start with the goal and work backwards, brainstorm, random simulation, question assumptions, break concepts into parts, use analogies, and challenge categories and labels.</simpara>
+<simpara><emphasis>Mistakes and Being Wrong</emphasis>. Making mistakes is often the best and fastest way to learn. Too much avoiding of mistakes can impair mental flexibility. And in regards to being wrong, mental flexibility is improved by being open to the fact that you will periodically be wrong, not being bothered by this fact, and being quick to admit when you are wrong.</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Make up three more strategies for lateral thinking.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Be on alert for times when you are wrong. Seek opportunities to admit when you are wrong.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Answer the Mental Play questions at the end of the chapter.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Moving on:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; You understand the nature of lateral thinking, and you periodically utilize lateral thinking type of strategies.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You have systematically applied lateral thinking to several topics of personal significance.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You are free of the mistake mystique and readily notice and admit being wrong.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You have identified at least one major area where you were wrong and did something to make corrections.</simpara>
+</listitem>
+</itemizedlist>
+<simpara><?asciidoc-pagebreak?></simpara>
+</section>
+</chapter>
+<chapter xml:id="student">
+<title>Student</title>
+<simpara>You have the basics in five general areas (concentration, awareness, breathwork, flexibility, and attitude) and now it is time to further hone these skills and build on them. Always remember the following: Learning to use your mind more effectively is one of the most important things you can do with your life; it will improve almost everything you do, and thus increase your happiness and health. To do this, you as a student must spend time developing skills&#8212;&#8203;reading, thinking, and wishing will not work. Whatever time you spend developing these skills you will get back many times over for many reasons, including being more effective and efficient, and avoiding common traps.</simpara>
+<section xml:id="_concentration_ii">
+<title>Concentration II</title>
+<simpara>You continue the same basic practice that you already know: you put your attention on something, such as your breathing at the tip of the nose, and every time the monkey runs off, you gently and firmly bring your attention back to your breathing. For the duration of your concentration practice at the student level is one simple principle: No matter what arises, treat it as a monkey trick and return to your breath. This includes all feelings, images, thoughts, and memories. The primary goal for level II concentration is the further development of one-pointed concentration despite distractions, and using the breath and other objects of focus.</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; What you need to do as a student is add at least two or three new objects of concentration to your practice.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Practice <emphasis>Moment-to-Moment Concentration</emphasis>. Let your mind go where it will; you let go and don’t choose. But wherever your mind goes, you try to bring to that object concentrated focus.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Moving on:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; You understand the tricks the monkey uses on you, and although it still periodically catches you, you don’t stay caught long.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Distractions to your concentration periodically arise, but most of the time they are short lived and not troublesome.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You have a clear sense of how to concentrate your mind, and can usually easily do it, when you are aware and motivated.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; There have been many times in which you have maintained strong concentration on some object.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You have developed concentration using your breath as well as other objects.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_awareness_ii">
+<title>Awareness II</title>
+<simpara>At the novice level, awareness of the body was the major object of attention. Awareness of your body should always be part of your practice. From now on you should periodically intentionally focus your awareness on some part of your body,</simpara>
+<simpara>At the student level, awareness of feelings is added. There is an interrelationship between body, feelings, and mind. Feelings in the body often precede actions and thoughts. Perceptions and thoughts often cause feelings in your body.</simpara>
+<note>
+<simpara>Body <literal>&#8592;-&#8594;</literal> Feelings <literal>&#8592;-&#8594;</literal> Mind</simpara>
+</note>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Intentionally try to clearly notice wherever your mind goes. Try to see clearly whatever arises in your mind, including feelings, perceptions, and thoughts.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Experiment with the use of labels.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Combine concentration and awareness training.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; After practicing awareness III for awhile, re-take the awareness questionnaire.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Moving on:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; You have become more aware of your body in a variety of ways and regularly, consciously attend to some parts of your body.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You have learned how to cultivate awareness during your way of practice.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You know the difference between awareness and concentration.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You can easily be aware of how concentrated your mind is.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You are becoming more aware of how aware you are at any time.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_attitude_ii">
+<title>Attitude II</title>
+<simpara><emphasis>Make Friends with Yourself</emphasis>. Unconditionally accept yourself, even when you are recognizing areas for improvement. If you say you can’t accept yourself unconditionally, then accept yourself as someone who can’t accept her or his self unconditionally.</simpara>
+<simpara><emphasis>Be in the Here and Now</emphasis>. The key to bringing yourself into the here and now is concentration, with help from awareness. When you are aware that you are lost in the past or future, you concentrate on something in the present to bring you back to the here and now.</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Reflect on how the four components of attitude be applied to many aspects of your life.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Reflect on the four components at least once a week, then once a month, and then periodically.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Moving on:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; You are continually discovering new ways attitude applies to your life and finding more and more depth and subtlety to your understanding.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_breathwork_ii">
+<title>Breathwork II</title>
+<simpara>At the student level you will learn how to further refine and alter your breathing by changing the rate of inhalation and exhalation. You will also learn additional ways to use breathing to reduce stress and anxiety.</simpara>
+<simpara>You want to exhale when you are contracting, bending forward, compressing your stomach, or twisting. You want to inhale when are expanding, bending backward, opening your chest, or coming out of a stretch.</simpara>
+<simpara>When you want to relax more, lengthen the time of exhalation and briefly hold your breath after exhaling. If you are feeling anxious, gradually lengthen the time of exhalation. If you need more energy, lengthen the time of inhalation and briefly hold your breath after inhaling.</simpara>
+<simpara>Some cases of fatigue are helped by first lengthening exhalations for about a dozen breaths and then gradually lengthening inhalations. And some cases of depression are helped by having the same length of both inhalation and exhalation, and then gradually lengthening both.</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Observe how long it takes you to inhale versus how long to exhale.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Spend a week of practice time just quietly observing the complete breath.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Moving on:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; You periodically monitor your breathing in various situations and alter it as needed.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You have added to your overall awareness of your complete breathing the periodic awareness of the relative lengths of inhalation and exhalation.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You have learned how to alter these lengths for the purpose of relaxation or energy.</simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="_relaxing">
+<title>Relaxing</title>
+<simpara>A simple way to relax is to use the 4-2-4-2 controlled breathing technique. Here you gradually inhale for a count of four, hold your breath for a count of two, gradually exhale for a count of four, hold your breath for a count of two, and then begin again.</simpara>
+<simpara>Relax by imagining a pleasant scene. Practice this with imagined situations that cause negative emotions.</simpara>
+<simpara>Moving on:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; You have developed your own powerful way to relax using breathwork, such as deep breathing and/or 4-2-4-2 breathing.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You have used this relaxation practice many times in real life situations.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You are continually becoming more aware of bodily cues related to how relaxed you are and changes in this relaxation.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You understand and appreciate how concentration, awareness, and breathwork combine to relax body and mind.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_flexibility_ii">
+<title>Flexibility II</title>
+<simpara>Increasing mental flexibility increases creativity.</simpara>
+<simpara>Question assumptions such as long held ideas and habit patterns.</simpara>
+<simpara>Moving on:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Rather than just unconsciously wandering through life, as a student you periodically reflect on, and occasionally question, some of your habitual perceptions, thoughts, values, and actions.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; You have made some important changes in some of your ideas, and you have found better ways of doing some things.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Complete mental play puzzles.</simpara>
+</listitem>
+</itemizedlist>
+<simpara><?asciidoc-pagebreak?></simpara>
+</section>
+</chapter>
+<chapter xml:id="warrior">
+<title>Warrior</title>
+<simpara>A key to effective living is learning to be a warrior in everyday situations, including mental training. Warriors realize that almost every instant of living is an opportunity to apply or further develop a mental skill. Perhaps it is a time to concentrate one’s attention, be more aware of one’s feelings, or question an assumption. There is always something mentally that can be done, and the warrior understands the importance of this truth. Training at the warrior level builds on this.</simpara>
+<section xml:id="_concentration_iii">
+<title>Concentration III</title>
+<simpara>Concentration training at this level begins with finding at least one situation each day where you can cultivate concentration. Once you are comfortable with this, then look for several situations each day. Freely repeat situations that are common or important, such as listening to people. But variety is also important; continually look for new situations. Eventually you should be easily doing this many times a day, usually without much effort. Also, be aware of when you need to quiet your mind and relax. To become a warrior relative to concentration is to act on the understanding that basically any situation is an opportunity to utilize and/or develop concentration skills.</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; At least once a day you want to identify an addition situation where you can develop concentration.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Maintain MTMC keeping your mind focused instant by instant as it moves from object to object.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_awareness_iii">
+<title>Awareness III</title>
+<simpara>Awareness training at the warrior level also involves bringing awareness more fully into daily living and developing and applying awareness more and more. Just about any situation that you are in or any activity you are doing is an opportunity to cultivate awareness. When cultivating awareness, try to do an activity as if it was completely new. The warrior&#8217;s goal is to be as aware as possible as often as possible.</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Create the time and space to do just one activity. Do not combine activities or multitask.</simpara>
+</listitem>
+<listitem>
+<simpara>Do the activity slowly.</simpara>
+</listitem>
+<listitem>
+<simpara>Take your time, be aware, and enjoy.</simpara>
+</listitem>
+</orderedlist>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Eat a meal with complete awareness, slowly, and by yourself. Then, wash the dishes with awareness.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Everyday pick at least one activity to do with full awareness and concentration.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Increase the number from one activity to several activities.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Set aside a half day to do everything with complete awareness.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Set aside a full day to do everything with full awareness.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; After practicing awareness III for awhile, re-take the awareness questionnaire.</simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="_awareness_of_pain">
+<title>Awareness of Pain</title>
+<simpara>Working with pain is one way to brings one focus into the here and now of direct experience.</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Notice the experience of being fully in the here and now.</simpara>
+</listitem>
+<listitem>
+<simpara>Try to bring your awareness to the simple sensation of pain, the pure sensation before you label it “pain” or respond to it in any way. Bring your awareness to the direct contact with the sensation.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_sitting_practice">
+<title>Sitting Practice</title>
+<simpara>It is important to continue to develop awareness during your way of practice, such as sitting and watching your breath.</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Notice how your body and mind interact.</simpara>
+</listitem>
+<listitem>
+<simpara>Focus on the rising and falling of events in your consciousness.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_awareness_while_walking">
+<title>Awareness While Walking</title>
+<simpara>You can cultivate concentration and awareness while walking in the same way you cultivated them during sitting.</simpara>
+<simpara>Slow formal walking. Cultivate awareness as described in this whole awareness section. Concentration is developed by continually bringing your attention back to walking. At first, do this for ten to fifteen minutes and then longer.</simpara>
+<simpara>Walk at other speeds.</simpara>
+<simpara>Put attention on breath while walking.</simpara>
+</section>
+</section>
+<section xml:id="_attitude_iii">
+<title>Attitude III</title>
+<simpara>Continue to reflect on the four aspects of attitudes that were introduced at the first two levels. The warrior sees how these are applicable to all of living, not just mental training.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Have Fun</simpara>
+</listitem>
+<listitem>
+<simpara>Act with Intention</simpara>
+</listitem>
+<listitem>
+<simpara>Make Friends with Yourself</simpara>
+</listitem>
+<listitem>
+<simpara>Be in the Here and Now</simpara>
+</listitem>
+</itemizedlist>
+<simpara><emphasis>Time-Outs</emphasis>: Take periodic time outs and days of rest. In addition, go off on retreats.</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Continue to reflect on the four aspects of attitude.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Take increasing amounts of time-outs.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_breathwork_iii">
+<title>Breathwork III</title>
+<simpara>You will learn here optional breathwork mental practices from pranayama.</simpara>
+<simpara><emphasis>Purifying Breath</emphasis>: Inhale fully with a deep breath and then exhale most of the air. At the end of the exhale, stop, then exhale a little more, stop, exhale a little more, stop, exhale a little more&#8230;&#8203;Do this until you can’t exhale any more. All of this is one purifying breath. Do three purifying breaths in a row.</simpara>
+<simpara><emphasis>Vitalic Breath</emphasis>: First, breathe in through the nose with a series of sharp sniffs until the lungs are completely full. Then, blow out sharply through the mouth with a loud “HAAA.” Do this vitalic breath three times in a row.</simpara>
+<simpara><emphasis>Alternate Nostril Breathing</emphasis>: The complete alternate nostril breathing consists of this cycle:</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Slowly take a deep breath inhaling through your left nostril for a count of 4.</simpara>
+</listitem>
+<listitem>
+<simpara>Hold your breath for a count of 4.</simpara>
+</listitem>
+<listitem>
+<simpara>Slowly and completely exhale through your right nostril for a count of 8.</simpara>
+</listitem>
+<listitem>
+<simpara>Slowly and deeply inhale through your right nostril for a count of 4.</simpara>
+</listitem>
+<listitem>
+<simpara>Hold for a count of 4.</simpara>
+</listitem>
+<listitem>
+<simpara>Slowly and completely exhale through your left nostril for a count of 8.</simpara>
+</listitem>
+</orderedlist>
+<simpara>Do five to ten of these cycles of alternate nostril breathing, pausing between each cycle, while letting your breathing flow naturally.</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Practice purifying breathing.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Practice vitalic breathing.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Practice alternate nostril breathing.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_flexibility_iii">
+<title>Flexibility III</title>
+<simpara>Flexibility at the warrior levels involves looking at attachments, meditation, and mental play.</simpara>
+<section xml:id="_attachments">
+<title>Attachments</title>
+<simpara>Attachments are obstacles to mental flexibility. Attachments are bad and lead to suffering. Being a warrior includes the willingness and desire to be in the world in the midst of attachments, confronting and reducing them. Sometimes this is difficult, but the warrior is up to the challenge. Attachments are the grist for the mill, opportunities for significant personal and spiritual growth.</simpara>
+<simpara>Attitude: take delight in discovering an attachment. Make friends with yourself.</simpara>
+<simpara>Awareness: First, notice the results of an attachment such as an undesired emotion. Then, go back in time to see if you can identify the attachment which was the cause.</simpara>
+<simpara>Action: What do you do to reduce the attachment.</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Identify a wide range of attachments at play in your life.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Write them down</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Devise a plan to reduce the important ones</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_meditation">
+<title>Meditation</title>
+<simpara>The practice of meditation consists of four components:</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Form</simpara>
+</listitem>
+<listitem>
+<simpara>Behaviors of the mind</simpara>
+</listitem>
+<listitem>
+<simpara>Attitude</simpara>
+</listitem>
+<listitem>
+<simpara>Object</simpara>
+</listitem>
+</orderedlist>
+<simpara>Your training in concentration and awareness will strongly help you in many of the world&#8217;s spiritual traditions. If you are at the Warrior level, you already have advanced skills for meditation in all of these traditions.</simpara>
+</section>
+<section xml:id="_mental_play">
+<title>Mental Play</title>
+<simpara>The playful warrior recognizes that having fun is not only pleasurable but also good for the health of body, mind, and spirit. The warrior brings the attitude of having fun to as many activities as possible. The warrior looks for and creates many opportunities to play. And the warrior understands playtime as a time to be in the here and how, a time to be free and open to novelty and surprise, and a time for creativity and lateral thinking.</simpara>
+<simpara>The world&#8217;s best non-gambling strategy games:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Chess</simpara>
+</listitem>
+<listitem>
+<simpara>Go</simpara>
+</listitem>
+<listitem>
+<simpara>Duplicate Bridge</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Warriors find games that they and various friends enjoy. Most important, warriors enjoy playing with all aspects of living with all of its interesting challenges.</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Learn a new game (chess, go, or bridge).</simpara>
+</listitem>
+</itemizedlist>
+<simpara><?asciidoc-pagebreak?></simpara>
+</section>
+</section>
+</chapter>
+<chapter xml:id="adept">
+<title>Adept</title>
+<simpara>At the adept level you will come to appreciate more how everything is interrelated.</simpara>
+<section xml:id="_concentration_iv">
+<title>Concentration IV</title>
+<simpara>Adept concentration is based on the understanding that any situation is an opportunity to further refine one’s concentration. Thus, every situation is a chance to do one or more of the following: be aware of how concentrated your mind is, actively quiet and focus your mind more, and keep your attention focused.</simpara>
+<simpara>The level is also an opportunity to further refine Moment-To-Moment Concentration (MTMC).</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Read through the Awareness Questionnaire and consider how both concentration and awareness apply to what is being asked.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_awareness_iv">
+<title>Awareness IV</title>
+<simpara>Awareness training at the adept level is based on the fact that every situation is an opportunity to develop awareness.</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Create the time and space to do just one activity. Do not combine activities or multitask.</simpara>
+</listitem>
+<listitem>
+<simpara>Do the activity slowly.</simpara>
+</listitem>
+<listitem>
+<simpara>Take your time, be aware, and enjoy.</simpara>
+</listitem>
+</orderedlist>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Eat a meal with complete awareness, slowly, and by yourself. Then, wash the dishes with awareness.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Everyday pick at least one activity to do with full awareness and concentration.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Increase the number from one activity to several activities.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Set aside a half day to do everything with complete awareness.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Set aside a full day to do everything with full awareness.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; After practicing awareness III for awhile, re-take the awareness questionnaire.</simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="_awareness_of_pain_2">
+<title>Awareness of Pain</title>
+<simpara>Working with pain is one way to brings one focus into the here and now of direct experience.</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Notice the experience of being fully in the here and now.</simpara>
+</listitem>
+<listitem>
+<simpara>Try to bring your awareness to the simple sensation of pain, the pure sensation before you label it “pain” or respond to it in any way. Bring your awareness to the direct contact with the sensation.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_sitting_practice_2">
+<title>Sitting Practice</title>
+<simpara>It is important to continue to develop awareness during your way of practice, such as sitting and watching your breath.</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Notice how your body and mind interact.</simpara>
+</listitem>
+<listitem>
+<simpara>Focus on the rising and falling of events in your consciousness.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_awareness_while_walking_2">
+<title>Awareness While Walking</title>
+<simpara>You can cultivate concentration and awareness while walking in the same way you cultivated them during sitting.</simpara>
+<simpara>Slow formal walking. Cultivate awareness as described in this whole awareness section. Concentration is developed by continually bringing your attention back to walking. At first, do this for ten to fifteen minutes and then longer.</simpara>
+<simpara>Walk at other speeds.</simpara>
+<simpara>Put attention on breath while walking.</simpara>
+</section>
+</section>
+<section xml:id="_attitude_iii_2">
+<title>Attitude III</title>
+<simpara>Continue to reflect on the four aspects of attitudes that were introduced at the first two levels. The warrior sees how these are applicable to all of living, not just mental training.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Have Fun</simpara>
+</listitem>
+<listitem>
+<simpara>Act with Intention</simpara>
+</listitem>
+<listitem>
+<simpara>Make Friends with Yourself</simpara>
+</listitem>
+<listitem>
+<simpara>Be in the Here and Now</simpara>
+</listitem>
+</itemizedlist>
+<simpara><emphasis>Time-Outs</emphasis>: Take periodic time outs and days of rest. In addition, go off on retreats.</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Continue to reflect on the four aspects of attitude.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Take increasing amounts of time-outs.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_breathwork_iii_2">
+<title>Breathwork III</title>
+<simpara>You will learn here optional breathwork mental practices from pranayama.</simpara>
+<simpara><emphasis>Purifying Breath</emphasis>: Inhale fully with a deep breath and then exhale most of the air. At the end of the exhale, stop, then exhale a little more, stop, exhale a little more, stop, exhale a little more&#8230;&#8203;Do this until you can’t exhale any more. All of this is one purifying breath. Do three purifying breaths in a row.</simpara>
+<simpara><emphasis>Vitalic Breath</emphasis>: First, breathe in through the nose with a series of sharp sniffs until the lungs are completely full. Then, blow out sharply through the mouth with a loud “HAAA.” Do this vitalic breath three times in a row.</simpara>
+<simpara><emphasis>Alternate Nostril Breathing</emphasis>: The complete alternate nostril breathing consists of this cycle:</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Slowly take a deep breath inhaling through your left nostril for a count of 4.</simpara>
+</listitem>
+<listitem>
+<simpara>Hold your breath for a count of 4.</simpara>
+</listitem>
+<listitem>
+<simpara>Slowly and completely exhale through your right nostril for a count of 8.</simpara>
+</listitem>
+<listitem>
+<simpara>Slowly and deeply inhale through your right nostril for a count of 4.</simpara>
+</listitem>
+<listitem>
+<simpara>Hold for a count of 4.</simpara>
+</listitem>
+<listitem>
+<simpara>Slowly and completely exhale through your left nostril for a count of 8.</simpara>
+</listitem>
+</orderedlist>
+<simpara>Do five to ten of these cycles of alternate nostril breathing, pausing between each cycle, while letting your breathing flow naturally.</simpara>
+<simpara>Assignments:</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Practice purifying breathing.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Practice vitalic breathing.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Practice alternate nostril breathing.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_flexibility_iii_2">
+<title>Flexibility III</title>
+<simpara>Flexibility at the warrior levels involves looking at attachments, meditation, and mental play.</simpara>
+<section xml:id="_attachments_2">
+<title>Attachments</title>
+<simpara>Attachments are obstacles to mental flexibility. Attachments are bad and lead to suffering. Being a warrior includes the willingness and desire to be in the world in the midst of attachments, confronting and reducing them. Sometimes this is difficult, but the warrior is up to the challenge. Attachments are the grist for the mill, opportunities for significant personal and spiritual growth.</simpara>
+<simpara>Attitude: take delight in discovering an attachment. Make friends with yourself.</simpara>
+<simpara>Awareness: First, notice the results of an attachment such as an undesired emotion. Then, go back in time to see if you can identify the attachment which was the cause.</simpara>
+<simpara>Action: What do you do to reduce the attachment.</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Identify a wide range of attachments at play in your life.</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Write them down</simpara>
+</listitem>
+<listitem>
+<simpara>&#10063; Devise a plan to reduce the important ones</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_meditation_2">
+<title>Meditation</title>
+<simpara>The practice of meditation consists of four components:</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Form</simpara>
+</listitem>
+<listitem>
+<simpara>Behaviors of the mind</simpara>
+</listitem>
+<listitem>
+<simpara>Attitude</simpara>
+</listitem>
+<listitem>
+<simpara>Object</simpara>
+</listitem>
+</orderedlist>
+<simpara>Your training in concentration and awareness will strongly help you in many of the world&#8217;s spiritual traditions. If you are at the Warrior level, you already have advanced skills for meditation in all of these traditions.</simpara>
+</section>
+<section xml:id="_mental_play_2">
+<title>Mental Play</title>
+<simpara>The playful warrior recognizes that having fun is not only pleasurable but also good for the health of body, mind, and spirit. The warrior brings the attitude of having fun to as many activities as possible. The warrior looks for and creates many opportunities to play. And the warrior understands playtime as a time to be in the here and how, a time to be free and open to novelty and surprise, and a time for creativity and lateral thinking.</simpara>
+<simpara>The world&#8217;s best non-gambling strategy games:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Chess</simpara>
+</listitem>
+<listitem>
+<simpara>Go</simpara>
+</listitem>
+<listitem>
+<simpara>Duplicate Bridge</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Warriors find games that they and various friends enjoy. Most important, warriors enjoy playing with all aspects of living with all of its interesting challenges.</simpara>
+<itemizedlist mark="none">
+<listitem>
+<simpara>&#10063; Learn a new game (chess, go, or bridge).</simpara>
+</listitem>
+</itemizedlist>
+<simpara><?asciidoc-pagebreak?></simpara>
+</section>
+</section>
+</chapter>
+<appendix xml:id="_progress_chart">
+<title>Progress Chart</title>
+<simpara>As you complete tasks tick the appropriate box below to mark your progress.</simpara>
+<table frame="all" rowsep="1" colsep="1">
+<title>Progression</title>
+<tgroup cols="6">
+<colspec colname="col_1" colwidth="16.6666*"/>
+<colspec colname="col_2" colwidth="16.6666*"/>
+<colspec colname="col_3" colwidth="16.6666*"/>
+<colspec colname="col_4" colwidth="16.6666*"/>
+<colspec colname="col_5" colwidth="16.6666*"/>
+<colspec colname="col_6" colwidth="16.667*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Skill</entry>
+<entry align="left" valign="top"><link linkend="novice">Novice</link></entry>
+<entry align="left" valign="top"><link linkend="student">Student</link></entry>
+<entry align="left" valign="top"><link linkend="warrior">Warrior</link></entry>
+<entry align="left" valign="top"><link linkend="adept">Adept</link></entry>
+<entry align="left" valign="top">Master</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Concentration</simpara></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Awareness</simpara></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mental Flexibility</simpara></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Attitude</simpara></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Breathwork</simpara></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</appendix>
+</book>
